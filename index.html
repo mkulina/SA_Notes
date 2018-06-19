@@ -3,12 +3,44 @@
   <head>
     <meta charset='utf-8'>
     <title></title>
-    <link rel='stylesheet' href='stylesheet.css'>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
+      SANotes
     </header>
-
+    <main>
+      <div class="headers">
+        <div id="list-head">
+          <b><i class="fa fa-archive"></i>  Listed Notes:</b> <em>(Select to edit/delete)</em>
+        </div>
+        <div id="note-head">
+          <span id="edit-mode" class="no-display">
+            <em>Editing mode </em>
+          </span>
+        </div>
+      </div>
+      <noteList>
+        <div id='listed'>
+        </div>
+      </noteList>
+      <notepad>
+        <div>
+          <button id="save"><i class="fa fa-floppy-o" aria-hidden="true"></i></button>
+          <button id="delete"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+        </div>
+        <div id="note-title">
+          <input id="title-field" type="text" placeholder="Title...">
+        </div>
+        <div id="note-body">
+          <textarea id="body-field" placeholder="Body..."></textarea>
+        </div>
+      </notepad>
+    </main>
+    <footer>
+    </footer>
   </body>
+  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
   <script type='text/javascript' src='script.js'></script>
 </html>
