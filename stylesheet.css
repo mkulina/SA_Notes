@@ -1,0 +1,145 @@
+body {
+  background-color: gray;
+}
+header {
+  text-align: center;
+  font-size: 32px;
+  border-bottom: solid 3px #DEDEDE;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  flex-flow: row-reverse;
+  padding: 5px 20px;
+}
+
+.headers {
+  margin-top: 20px;
+  margin-bottom: -10px;
+  font-size: 20px;
+}
+
+#list-head {
+  margin: 0% 2.5%;
+  width: 90.5%;
+  display: block;
+  text-align: center;
+}
+
+#note-head {
+  width: 60%;
+  margin-left: 5%;
+  display: block;
+  text-align: center;
+}
+
+noteList {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: table;
+  align-content: center;
+  width: 80%;
+  height: auto;
+  min-height: 400px;
+  overflow: scroll;
+  border: solid 3px black;
+  border-radius: 5px;
+  background-color: rgba(250, 255, 0, 0.8);
+}
+
+.within-list {
+  cursor: pointer;
+}
+
+.list-title {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px 5px 0 5px;
+}
+
+.list-date {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 12px;
+  padding: 0 5px 0 5px;
+}
+
+.list-text {
+  padding: 0 5px 5px 5px;
+  border-bottom: solid 1px black;
+}
+
+notePad {
+  display: table;
+  margin: 0 auto;
+  border: solid 3px black;
+  border-radius: 10px;
+  height: 400px;
+  overflow: scroll;
+  width: 80%;
+  background-color: white;
+
+}
+
+#note-title {
+  font-size: 24px;
+  padding: 0 0 5px 5px;
+  border-bottom: solid 2px #DEDEDE;
+}
+
+#note-body {
+  padding: 5px;
+}
+
+#body-field, #title-field {
+  width: 99%;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+#title-field {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#body-field {
+  font-size: 14px;
+  font-weight: 500;
+  height: 400px;
+}
+
+
+.display {
+  margin: 0 auto;
+  display: visible;
+  color: yellow;
+}
+
+.no-display {
+  display: none;
+}
+
+button {
+  margin: 5px;
+  border: solid 3px black;
+  border-radius: 10%;
+  font-size: 22px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #DEDEDE;
+}
+
+button:hover, .color-box:hover {
+  cursor: pointer;
+}
+
+#save {
+  background-color: #2F5032;
+}
+
+#delete {
+  background-color: #E41A36;
+}
